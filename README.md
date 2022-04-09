@@ -19,7 +19,7 @@ npm run dev
 ```
 back-end app in node.js (express.js) will start on Port 3000
 
-##Front-end app:
+## Front-end :
 in the ./front-end directory use the same steps 
 ```
 npm install
