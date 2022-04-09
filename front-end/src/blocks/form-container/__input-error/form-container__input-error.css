@@ -1,0 +1,11 @@
+.form-container__input-error{
+    display:none;
+    color:red;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    max-width: 100%;
+    text-align: left;
+    margin-top:5px;
+}

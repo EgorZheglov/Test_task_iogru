@@ -1,0 +1,11 @@
+.content__table{
+    display:flex;
+    flex-direction: column;
+    background-color: #2196F3;
+    border: 2px solid gray;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,13 @@
+.form-container__close-button {
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100%;
+  opacity: 100%;
+  margin-bottom: 10px;
+  margin-bottom: 5px;
+}

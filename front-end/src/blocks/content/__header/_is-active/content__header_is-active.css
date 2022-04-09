@@ -1,0 +1,6 @@
+.content__header_is-active{
+    background-image: url(../../../../images/angle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom 50% right 10px;
+}

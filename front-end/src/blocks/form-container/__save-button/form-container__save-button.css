@@ -1,0 +1,15 @@
+.form-container__save-button{
+    border: none;
+    outline:none;
+    background-color: #2196F3;
+    cursor: pointer;
+    color:white;
+    border-radius: 5px;
+    margin-top: 8px;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.form-container__save-button:hover{
+    background-color: #2ab4da;
+}

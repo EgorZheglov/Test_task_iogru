@@ -1,0 +1,15 @@
+.buttons-container__color-button{
+    border: none;
+    outline:none;
+    background-color: #2196F3;
+    cursor: pointer;
+    color:white;
+    border-radius: 5px;
+    margin-top: 20px;
+    width:80%;
+    margin-bottom: 10px;
+}
+
+.buttons-container__color-button:hover{
+    background-color: #2ab4da;
+}

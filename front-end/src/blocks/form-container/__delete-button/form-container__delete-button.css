@@ -1,0 +1,17 @@
+.form-container__delete-button {
+  border: none;
+  outline: none;
+  background-color: red;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  opacity: 100%;
+  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.form-container__delete-button:hover {
+  opacity: 70%;
+}

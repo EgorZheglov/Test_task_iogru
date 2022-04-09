@@ -1,0 +1,10 @@
+.content__person-info{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    overflow: hidden;
+    min-width: 24%;
+    text-align: left;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid black;
+}

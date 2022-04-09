@@ -1,0 +1,15 @@
+.content__header{
+    border:none;
+    margin-left: 1px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid black;
+    text-align: left;
+    background-color: #2196F3;
+    cursor: pointer;
+    color:white;
+    min-width: 24%;
+}
+
+.content__header:hover{
+    background-color: #2ab4da;
+}

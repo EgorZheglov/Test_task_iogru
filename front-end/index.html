@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zheglov test task</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <h1 class="header__title">Egor Zheglov test task</h1>
+    </header>
+    <main class="content">
+      <div class="content__table">
+        <div class="content__heading">
+          <div class="content__number">№</div>
+          <button
+            type="button"
+            class="content__header content__firstname"
+            id="firstName"
+          >
+            First Name
+          </button>
+          <button
+            type="button"
+            class="content__header content__lastname"
+            id="lastName"
+          >
+            Last Name
+          </button>
+          <button type="button" class="content__header age" id="age">
+            Age
+          </button>
+          <button
+            type="button"
+            class="content__header content__salary"
+            id="salary"
+          >
+            Salary $
+          </button>
+        </div>
+      </div>
+    </main>
+    <div class="form-container type_edit">
+      <form class="form-container__form">
+        <form
+          class="form-container__form"
+          name="profileInputPhotoForm"
+          novalidate
+        >
+          <h3 class="form-container__header">Edit info:</h3>
+          <input
+            class="form-container__input"
+            id="form-container__input_firstname"
+            type="text"
+            minlength="2"
+            placeholder="First Name"
+            required
+          />
+          <span
+            class="form-container__input-error"
+            id="form-container__input_firstname-error"
+          ></span>
+          <input
+            class="form-container__input"
+            id="form-container__input_lastname"
+            type="text"
+            minlength="2"
+            placeholder="Last Name"
+            required
+          />
+          <span
+            class="form-container__input-error"
+            id="form-container__input_lastname-error"
+          ></span>
+          <textarea
+            class="form-container__input form-container__input_age"
+            id="form-container__input_age"
+            type="text"
+            placeholder="Age"
+            required
+          ></textarea>
+          <span
+            class="form-container__input-error"
+            id="form-container__input_age-error"
+          ></span>
+          <input
+            class="form-container__input"
+            id="form-container__input_salary"
+            type="text"
+            minlength="2"
+            placeholder="salary"
+            required
+          />
+          <span
+            class="form-container__input-error"
+            id="form-container__input_salary-error"
+          ></span>
+          <button class="form-container__save-button" type="submit">
+            Save
+          </button>
+          <button class="form-container__delete-button" type="button">
+            delete user
+          </button>
+          <button class="form-container__close-button" type="button">
+            close
+          </button>
+        </form>
+      </form>
+    </div>
+    <div class="form-container type_add">
+      <form class="form-container__form">
+        <form
+          class="form-container__form"
+          name="profileInputPhotoForm"
+          novalidate
+        >
+          <h3 class="form-container__header">Add info:</h3>
+          <input
+            class="form-container__input"
+            id="form-container__input_firstname"
+            type="text"
+            minlength="2"
+            placeholder="First Name"
+            required
+          />
+          <span
+            class="form-container__input-error"
+            id="form-container__input_firstname-error"
+          ></span>
+          <input
+            class="form-container__input"
+            id="form-container__input_lastname"
+            type="text"
+            minlength="2"
+            placeholder="Last Name"
+            required
+          />
+          <span
+            class="form-container__input-error"
+            id="form-container__input_lastname-error"
+          ></span>
+          <textarea
+            class="form-container__input form-container__input_age"
+            id="form-container__input_age"
+            type="text"
+            placeholder="Age"
+            required
+          ></textarea>
+          <span
+            class="form-container__input-error"
+            id="form-container__input_age-error"
+          ></span>
+          <input
+            class="form-container__input"
+            id="form-container__input_salary"
+            type="text"
+            minlength="2"
+            placeholder="salary"
+            required
+          />
+          <span
+            class="form-container__input-error"
+            id="form-container__input_salary-error"
+          ></span>
+          <button class="form-container__save-button" type="submit">Add</button>
+          <button class="form-container__close-button" type="button">
+            close
+          </button>
+        </form>
+      </form>
+    </div>
+    <div class="buttons-container">
+      <button type="button" id="firstname" class="buttons-container__button">
+        Add user
+      </button>
+    </div>
+    <template id="user-template">
+      <ul class="content__item">
+        <li class="content__number"></li>
+        <li class="content__person-info content__firstname"></li>
+        <li class="content__person-info content__lastname"></li>
+        <li class="content__person-info content__age"></li>
+        <li
+          id="content__eyecolor"
+          class="content__person-info content__salary"
+        ></li>
+      </ul>
+    </template>
+  </body>
+</html>
