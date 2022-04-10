@@ -31,4 +31,8 @@ npm run dev
 ```
 front-end app will start on Port 8080
 
+## Functions :
+choose row in the table to update or delete user.
+To sort users by column press the column heading button.
+
 
