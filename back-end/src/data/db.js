@@ -39,7 +39,7 @@ const deleteUser = (id) => {
 const createUser = (user) => {
   array = getUsers();
   user.id = uuidv4();
-  
+  array.push(user)
   writeFile(array);
 };
 
