@@ -63,7 +63,7 @@ export default class Table {
     if (id !== "salary" || id !== "age") {
       return (a, b) => (a[id] > b[id] ? 1 : -1);
     } else {
-      return (a, b) => (Number(a[id]) > Number(b[id]) ? 1 : -1);
+      return (a, b) => (Number(a[id]) < Number(b[id]) ? 1 : -1);
     }
   }
 
@@ -93,7 +93,7 @@ export default class Table {
     const number =
       this.selectedItem.querySelector(".content__number").textContent;
     const id = this._items.find(
-      (item) => Number(item.number) !== Number(number),
+      (item) => Number(item.number) === Number(number),
     ).id;
 
     this._deleteUserHandeler(id).then((res) => {

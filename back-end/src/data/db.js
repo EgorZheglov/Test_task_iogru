@@ -26,7 +26,6 @@ const updateUser = (data) => {
   const newArr = arr.filter((el) => el.id !== data.id);
 
   newArr.push(data);
-  console.log(newArr);
   writeFile(newArr);
 };
 
